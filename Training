@@ -2,7 +2,7 @@ clc;
 clear all;
 close all;
 
-Train_data = fullfile(matlabroot,'toolbox','nnet','nndemos','nndatasets','Train_RE_TFR_weak_wifi'); %Load training data
+Train_data = fullfile(matlabroot,'toolbox','nnet','nndemos','nndatasets','Train_RE_TFR_strong_wifi'); %Load training data
 Test_data = fullfile(matlabroot,'toolbox','nnet','nndemos','nndatasets','Test_data_TFR_strong_wifi','snr_-2_f1'); %Load test data individually for each FHSS signal at a certain SNR
 
 k = 5;
