@@ -1,0 +1,8 @@
+Just load the file in MATLAB and paste the below lines in the command window to verify the trained MCNN.
+
+Test_data = fullfile(matlabroot,'toolbox','nnet','nndemos','nndatasets','Test_data_TFR_weak_wifi','snr_-2_f1');
+imds2 = imageDatastore(Test_data,'IncludeSubfolders',true,'LabelSource','foldernames');
+ imdsTest = imds2;
+YPred = classify(net,imdsTest);
+YTest = imdsTest.Labels;
+PCC = mean(YPred == YTest)
