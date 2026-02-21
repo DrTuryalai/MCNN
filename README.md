@@ -3,7 +3,13 @@ Classification of frequency-hopping spread spectrum (FHSS) signal in a complex e
 
 # Instructions
 To test the trained MCNN, open the Trained MCNN file in MATLAB and follow the instructions given with the file.
-The trained MCNN must be verified corresponding to its test data. For example, Trained MCNN for Event-I must be verified on the Test data of Event-I.
+The trained MCNN must be verified corresponding to its test data. For example, the Trained MCNN for Event-I must be verified on the Test data of Event-I.
+
+# FHSS_codes
+Run the main files for different FHSS signals generation that can be used to generate the FHSS dataset.
+
+# FHSS Dataset
+The FHSS dataset comprising TFR images is available at: https://drive.google.com/file/d/1zdal5ZHB_6DX0s2GNINkhqVLvqLeno4i/view?usp=drive_link.
 
 # Cite this work if you find it useful
-Khan, M. T. (2024). A modified convolutional neural network with rectangular filters for frequency-hopping spread spectrum signals. Applied Soft Computing, 150, 111036.
+Khan, M. T. (2024). A modified convolutional neural network with rectangular filters for frequency-hopping spread spectrum signals. Applied Soft Computing, 150, 111036. DOI: https://doi.org/10.1016/j.asoc.2023.111036
